@@ -13,7 +13,7 @@ public class Prodotto {
     boolean spediozione_sgaso;
     boolean disponibile;
 
-    Fornitore fornitore() = new Fornitore();
+    Fornitore fornitore = new Fornitore();
 
     public String getNome() {
         return nome;
