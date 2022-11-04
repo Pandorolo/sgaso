@@ -1,14 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package sgaso;
 
-/**
- *
- * @author 4bi
- */
 public class Fornitore {
-    
+    String luogo;
+
+    public Fornitore() {}
+
+    public Fornitore(String luogo) {
+        this.luogo = luogo;
+    }
+
+    public String getLuogo() {
+        return luogo;
+    }
+
+    public void setLuogo(String luogo) {
+        this.luogo = luogo;
+    }
+
+    @Override
+    public String toString() {
+        return "Fornitore{" + "luogo=" + luogo + '}';
+    }
 }
